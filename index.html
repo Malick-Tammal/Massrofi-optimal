@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="أول شركة في الجزائر الكائن مقرها الرئيسي بولاية الجلفة، توفر ثلاث طرق مختلفة للدفع (نقدا - البطاقة الإلكترونية - الكريدي) حيث توفر الشركة تطبيق مصروفي"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicon.ico" />
+
+    <!-- Preload hero background -->
+    <script>
+      var pic = new Image();
+      if (window.innerWidth < 768) {
+        pic.src = "/assets/images/hero_mobile.webp";
+      } else {
+        pic.src = "/assets/images/hero.webp";
+      }
+    </script>
+    <style>
+      @media only screen and (max-width: 768px) {
+        body::before {
+          content: url("/assets/images/hero_mobile.webp");
+          position: absolute;
+          top: -9999rem;
+          left: -9999rem;
+          opacity: 0;
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        body::before {
+          content: url("/assets/images/hero.webp");
+          position: absolute;
+          top: -9999rem;
+          left: -9999rem;
+          opacity: 0;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="/src/css/root.css" />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/responsive.css" />
+
+    <title>Massrofi - Optimal</title>
+  </head>
+  <body>
+    <section id="hero">
+      <div class="spacing"></div>
+      <header>
+        <nav class="nav_bar">
+          <a href="/" class="logo"
+            ><img
+              src="/assets/icons/logo_green.webp"
+              width="322"
+              height="322"
+              alt="logo_green"
+            />مصروفي
+          </a>
+          <ul>
+            <li><a href="javascript:;" class="active">الرئيسية</a></li>
+            <li><a href="javascript:;">خدماتنا</a></li>
+            <li><a href="javascript:;">حول الشركة</a></li>
+            <li><a href="javascript:;">طرق الدفع</a></li>
+            <li><a href="javascript:;">ملف التعاقد</a></li>
+          </ul>
+          <div class="burger_btn">
+            <svg>
+              <line
+                x1="0"
+                y1="50%"
+                x2="100%"
+                y2="50%"
+                shape-rendering="crispEdges"
+              />
+              <line
+                x1="0"
+                y1="50%"
+                x2="100%"
+                y2="50%"
+                shape-rendering="crispEdges"
+              />
+              <line
+                x1="0"
+                y1="50%"
+                x2="100%"
+                y2="50%"
+                shape-rendering="crispEdges"
+              />
+            </svg>
+          </div>
+        </nav>
+        <nav class="menu_mobile">
+          <ul>
+            <li><a href="javascript:;" class="active">الرئيسية</a></li>
+            <li><a href="javascript:;">خدماتنا</a></li>
+            <li><a href="javascript:;">حول الشركة</a></li>
+            <li><a href="javascript:;">طرق الدفع</a></li>
+            <li><a href="javascript:;">ملف التعاقد</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="menu_mobile_overlay"></div>
+      <div class="content">
+        <div class="container">
+          <div class="main">
+            <h1>حاب تصرف ومعندكش دراهم ؟</h1>
+            <p>شركة مصروفي هي الحل اشري اليوم و ادفع لاحق</p>
+            <h2>كريدي</h2>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.massrofi.massrofi"
+            >
+              <img
+                src="/assets/images/google_play.webp"
+                width="646"
+                height="250"
+                alt="google_play"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <div class="title">
+          <h1>خدماتنا</h1>
+          <p>مع مصروفي استفد بالعديد من الخدمات المميزة</p>
+        </div>
+        <div class="cards_wrapper">
+          <div class="card">
+            <img
+              sizes="(min-width: 2440px) 523px, (min-width: 1800px) calc(18.39vw + 78px), (min-width: 1280px) 28.4vw, (min-width: 1040px) 30vw, (min-width: 780px) 31.67vw, 95vw"
+              srcset="
+                /assets/images/srcset/post-3(300px).webp  400w,
+                /assets/images/srcset/post-3(500px).webp  600w,
+                /assets/images/post-3.webp                800w,
+                /assets/images/srcset/post-3(300px).webp 1000w,
+                /assets/images/srcset/post-3(500px).webp 2000w,
+                /assets/images/post-3.webp               3000w
+              "
+              src="/assets/images/post-3.webp"
+              alt="post-3"
+              width="800"
+              height="800"
+              loading="lazy"
+            />
+            <h1>خدمة الكريدي</h1>
+            <p>نوفر لك طرق متنوعة ومميزة للدفع من بينها ميزة الكريدي</p>
+          </div>
+          <div class="card">
+            <img
+              sizes="(min-width: 2440px) 523px, (min-width: 1800px) calc(18.39vw + 78px), (min-width: 1280px) 28.4vw, (min-width: 1040px) 30vw, (min-width: 780px) 31.67vw, 95vw"
+              srcset="
+                /assets/images/srcset/post-2(300px).webp  400w,
+                /assets/images/srcset/post-2(500px).webp  600w,
+                /assets/images/post-2.webp                800w,
+                /assets/images/srcset/post-2(300px).webp 1000w,
+                /assets/images/srcset/post-2(500px).webp 2000w,
+                /assets/images/post-2.webp               3000w
+              "
+              src="/assets/images/post-2.webp"
+              alt="post-2"
+              width="800"
+              height="800"
+              loading="lazy"
+            />
+            <h1>خدمة التوصيل</h1>
+            <p>أطلب وش حبيت وتوصلك لباب الدار في أسرع وقت</p>
+          </div>
+          <div class="card">
+            <img
+              sizes="(min-width: 2440px) 523px, (min-width: 1800px) calc(18.39vw + 78px), (min-width: 1280px) 28.4vw, (min-width: 1040px) 30vw, (min-width: 780px) 31.67vw, 95vw"
+              srcset="
+                /assets/images/srcset/post-1(300px).webp  400w,
+                /assets/images/srcset/post-1(500px).webp  600w,
+                /assets/images/post-1.webp                800w,
+                /assets/images/srcset/post-1(300px).webp 1000w,
+                /assets/images/srcset/post-1(500px).webp 2000w,
+                /assets/images/post-1.webp               3000w
+              "
+              src="/assets/images/post-1.webp"
+              alt="post-1"
+              width="800"
+              height="800"
+              loading="lazy"
+            />
+            <h1>خدمة الشراء</h1>
+            <p>نختار لزبائننا أجود المنتجات بفضل عملائنا المتميزين</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="title">
+          <h1>حول الشركة</h1>
+        </div>
+        <div class="big_box">
+          <div class="top">
+            <h1>شركة مصروفي</h1>
+            <p>
+              أول شركة في الجزائر الكائن مقرها الرئيسي بولاية الجلفة، توفر ثلاث
+              طرق مختلفة للدفع (نقدا - البطاقة الإلكترونية - الكريدي) حيث توفر
+              الشركة تطبيق مصروفي
+            </p>
+            <ul>
+              <li>
+                التطبيق الإلكتروني مصروفي يعمل على تغطية جميع الطلبات من شراء
+                وتوصيل لباب المنزل
+              </li>
+              <li>
+                خيارات متعددة للشراء مواد غذائية، لحوم، خضر وفواكه مطاعم وأكلات
+                جاهزة
+              </li>
+              <li>تجربة تسوق وتوصيل ممتعة سهلة سريعة</li>
+              <li>
+                طرق مبتكرة للدفع نقدا، البطاقة الذهبية أو<span>بالكريدي</span>
+              </li>
+            </ul>
+            <a href="tel:+213658924192">اتصل بنا</a>
+          </div>
+          <img
+            srcset="
+              /assets/images/srcset/about(300px).webp  400w,
+              /assets/images/srcset/about(500px).webp  600w,
+              /assets/images/about.webp                800w,
+              /assets/images/srcset/about(300px).webp 1000w,
+              /assets/images/srcset/about(500px).webp 1500w,
+              /assets/images/about.webp               2000w
+            "
+            src="/assets/images/about.webp"
+            alt="about"
+            width="800"
+            height="524"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="payments">
+      <div class="container">
+        <div class="title">
+          <h1>طرق الدفع</h1>
+          <p>اليك طرق الدفع المتوفرة</p>
+        </div>
+        <div class="cards_wrapper">
+          <div class="card">
+            <h1>نقدا</h1>
+            <img
+              src="/assets/images/cash.webp"
+              alt="cash"
+              width="500"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="card">
+            <h1>البطاقة الذهبية</h1>
+            <img
+              src="/assets/images/dahabia.webp"
+              alt="dahabia"
+              width="500"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="card">
+            <h1>نقدا</h1>
+            <img
+              src="/assets/images/credit.webp"
+              alt="credit"
+              width="500"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contract">
+      <div class="container">
+        <div class="title">
+          <h1>ملف التعاقد</h1>
+          <p>الكريدي</p>
+        </div>
+        <div class="content">
+          <div class="left_col">
+            <h1>موظفون ومتقاعدون: فرصة مميزة مع شركة مصروفية.</h1>
+            <p>
+              يمكنكم الأن الحصول على خدمة الكريدي بدون فائدة على جميع المنتجات
+              داخل التطبيق ، الملف المطلوب
+            </p>
+            <ul>
+              <li>صورة شمسية 🟢</li>
+              <li>شهادة العمل أو شهادة التقاعد 🟢</li>
+              <li>بطاقة إقامة 🟢</li>
+              <li>نسخة من بطاقة التعريف الوطنية 🟢</li>
+              <li>صك بريدي أو بنكي (على حسب أشهر التعاقد) 🟢</li>
+              <li>كشف الحساب البريدي ل 3 أشهر الأخيرة 🟢</li>
+              <li>كشف الراتب ل 3 أشهر 🟢</li>
+            </ul>
+          </div>
+          <img
+            src="/assets/images/credit_contract.webp"
+            alt="credit_contract"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="title">
+          <h1>تواصل معنا</h1>
+        </div>
+        <div class="cards_wrapper">
+          <div class="card">
+            <img
+              src="/assets/icons/marker_icon.svg"
+              alt="marker-icon"
+              width="500"
+              height="500"
+              loading="lazy"
+            />
+            <h1>العنوان</h1>
+            <p>حي بربيح,</p>
+            <p>الجلفة, الجلفة</p>
+          </div>
+          <div class="card">
+            <img
+              src="/assets/icons/mail_icon.svg"
+              alt="mail-icon"
+              width="500"
+              height="500"
+              loading="lazy"
+            />
+            <h1>البريد الالكتروني</h1>
+            <p>administration@massrofi.com</p>
+          </div>
+          <div class="card">
+            <img
+              src="/assets/icons/clock_icon.svg"
+              alt="clock-icon"
+              width="500"
+              height="500"
+              loading="lazy"
+            />
+            <h1>أوقات العمل</h1>
+            <p>السبت - الخميس</p>
+            <p>09:00 - 20:00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="about">
+            <div class="logo">
+              <img src="/assets/icons/logo.webp" alt="logo" loading="lazy" />
+              <h1>مصروفي</h1>
+            </div>
+            <p>
+              مصروفي هي شركة تدير تطبيقًا محمولًا موجهًا لتقديم خدمات لشراء
+              وتوصيل الموونة. توفر الشركة منصة حيث يمكن للزبائن بسهولة طلب مواد
+              البقالة واستلامها مباشرة إلى باب منزلهم.
+            </p>
+            <div class="social_media">
+              <a href="https://www.facebook.com/profile.php?id=61555478632754">
+                <img
+                  src="/assets/icons/facebook_icon.svg"
+                  alt="facebook_icon"
+                  width="50"
+                  height="50"
+                  loading="lazy"
+              /></a>
+              <a href="https://www.instagram.com/massrofi.app">
+                <img
+                  src="/assets/icons/instagram_icon.svg"
+                  alt="instagram_icon"
+                  width="50"
+                  height="50"
+                  loading="lazy"
+              /></a>
+            </div>
+          </div>
+          <div class="download">
+            <h1>حمل الان</h1>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.massrofi.massrofi"
+            >
+              <img
+                src="/assets/images/google_play.webp"
+                alt="google_play"
+                width="646"
+                height="250"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <div class="location">
+            <h1>الموقع على الخريطة</h1>
+            <div class="google_map">
+              <a
+                href="https://maps.google.com/maps?ll=34.665028,3.251556&z=18&t=h&hl=en&gl=DZ&mapclient=embed&cid=16337784199063423383"
+              >
+                <img
+                  src="/assets/images/google_maps.webp"
+                  alt="google_maps"
+                  width="579"
+                  height="393"
+                  loading="lazy"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_bar">
+        <p>كل الحقوق محفوظة. <span>مصروفي</span></p>
+        <p>© 2025</p>
+      </div>
+    </footer>
+
+    <div class="back_to_top">
+      <img src="./public/assets/icons/up_arrow.svg" alt="up_arrow" />
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

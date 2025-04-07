@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  max-width: 100%;
+  background-color: var(--white);
+  color: var(--black);
+  font-family: "tajawal", serif;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+  transition: var(--tr-all);
+}
+li {
+  list-style: none;
+}
+img {
+  width: 3rem;
+  height: auto;
+  -webkit-user-drag: none;
+}
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 3.75rem;
+}
+
+section {
+  padding: 3.75rem 0;
+}

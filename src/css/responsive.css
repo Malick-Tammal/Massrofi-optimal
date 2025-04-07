@@ -1,0 +1,110 @@
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+  .nav_bar ul {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .nav_bar ul li a {
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 10px 0 10px 15px;
+    transition: unset;
+  }
+  .nav_bar ul li a.active {
+    color: var(--main-color);
+  }
+  .nav_bar ul li a:hover {
+    color: var(--main-color);
+  }
+  .burger_btn {
+    display: none;
+  }
+  .menu_mobile {
+    display: none;
+  }
+  #hero .content {
+    height: 100vh;
+    height: 100svh;
+    background: url(/assets/images/hero.webp) top center no-repeat;
+    background-size: cover;
+  }
+  #hero .content .container {
+    justify-content: flex-end;
+  }
+  #hero .content .container .main {
+    width: 50%;
+  }
+  .cards_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .big_box {
+    flex-direction: row-reverse;
+  }
+  .big_box img {
+    max-width: 50%;
+    margin-left: min(1.5rem, 3%);
+  }
+  #payments .cards_wrapper {
+    gap: 1rem;
+  }
+  #payments .card {
+    padding: 2rem;
+  }
+  #contract .content {
+    flex-direction: row-reverse;
+  }
+  #contract .content img {
+    max-width: 50%;
+  }
+  #contact .cards_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer .content {
+    display: grid;
+    align-items: flex-start;
+    grid-template: "location download about";
+  }
+  footer .content .download {
+    margin-top: 0;
+  }
+  footer .content .location {
+    margin-top: 0;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+  .nav_bar {
+    width: 90%;
+  }
+  .nav_bar ul li a {
+    padding: 10px 0 10px 30px;
+  }
+  #payments .cards_wrapper {
+    gap: 1.5rem;
+  }
+  #payments .card {
+    padding: 3rem;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 85%;
+  }
+  .nav_bar {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .container {
+    width: 70%;
+  }
+  .nav_bar {
+    width: 70%;
+  }
+}

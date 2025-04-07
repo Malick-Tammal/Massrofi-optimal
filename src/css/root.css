@@ -1,0 +1,12 @@
+:root {
+  --main-color: #4caf50;
+  --main-color-light: #65c600;
+  --main-color-lighter: #07d5c0;
+  --secondary-color: #da8608;
+  --secondary-color-light: #ff9800;
+
+  --black: #161616;
+  --white: #ffffff;
+
+  --tr-all: all 0.3s ease-in-out;
+}
