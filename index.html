@@ -12,7 +12,7 @@
 
     <!-- Preload hero background -->
     <script>
-      var pic = new Image();
+      const pic = new Image();
       if (window.innerWidth < 768) {
         pic.src = "/assets/images/hero_mobile.webp";
       } else {
@@ -427,7 +427,12 @@
     </footer>
 
     <div class="back_to_top">
-      <img src="./public/assets/icons/up_arrow.svg" alt="up_arrow" />
+      <img
+        src="./assets/icons/up_arrow.svg"
+        width="28"
+        height="28"
+        alt="up_arrow"
+      />
     </div>
     <script type="module" src="/src/js/main.js"></script>
   </body>

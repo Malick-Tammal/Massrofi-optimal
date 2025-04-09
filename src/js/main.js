@@ -93,7 +93,6 @@ const initApp = () => {
 
   //  CARDS
   const cards = document.querySelectorAll(".card");
-  const cardsWrapper = document.querySelectorAll(".card_wrapper");
 
   const cardsReveal = (item) => {
     gsap.from(item, {
@@ -116,8 +115,6 @@ const initApp = () => {
     cardsReveal("#payments .cards_wrapper .card");
     cardsReveal("#contact .cards_wrapper .card");
   }
-
-  console.log(window.innerWidth);
 
   // ABOUT SECTION
   const aboutTopChlds = document.querySelector("#about .top").children;
@@ -210,7 +207,6 @@ const initApp = () => {
   const back2top = document.querySelector(".back_to_top");
 
   window.addEventListener("scroll", () => {
-    console.log(window.pageYOffset);
     if (window.pageYOffset >= 400) {
       gsap.to(back2top, {
         autoAlpha: 1,
